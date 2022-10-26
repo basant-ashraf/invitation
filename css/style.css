@@ -1,0 +1,166 @@
+:root {
+    --main-color: rgba(214, 46, 51, 0.6);
+    --desc-color: #cccccc;
+    --aside-color: #414658;
+    --color: #d62e33;
+    --border-color: #777777;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+header {
+    background-image: url(../images/events-heavenly-header.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+header .layer {
+    background-color: var(--main-color);
+}
+
+header .layer h1 {
+    font-size: 60px;
+}
+
+#toggle .container .singer {
+    background-color: rgba(214, 46, 51, 0.6);
+    cursor: pointer;
+    margin: 0;
+}
+
+#toggle .container .desc {
+    background-color: var(--desc-color);
+    display: none;
+    padding: 10px;
+}
+
+#open {
+    left: 10px;
+    cursor: pointer;
+}
+
+aside {
+    background-color: var(--aside-color);
+    overflow: hidden;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 0px;
+    z-index: 1;
+}
+
+aside ul {
+    margin: 30px 0;
+}
+
+aside ul li {
+    margin: 30px 0;
+    font-size: 25px;
+
+}
+
+aside ul li:hover a {
+    color: rgba(214, 46, 51, 0.6);
+}
+
+aside ul li a {
+    color: white;
+    transition: color 0.5s;
+    -webkit-transition: color 0.5s;
+    -moz-transition: color 0.5s;
+    -ms-transition: color 0.5s;
+    -o-transition: color 0.5s;
+}
+
+aside .icon {
+    cursor: pointer;
+    top: 20px;
+    right: 20px;
+}
+
+#contact input::placeholder,
+#contact textarea::placeholder {
+    font-size: 18px;
+    color: var(--border-color);
+}
+
+#contact .form input,
+#contact .form textarea {
+    padding: 10px 16px;
+}
+
+#contact .info .color {
+    color: var(--color) !important;
+}
+
+#contact .info li {
+    margin-bottom: 35px;
+}
+
+#contact .desc h3 {
+    font-size: 18px;
+}
+
+#contact .icons .icon {
+    width: 40px;
+    height: 40px;
+    border: 1px solid var(--border-color);
+    margin-right: 14px;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+
+#contact .icons .icon i {
+    color: var(--border-color);
+    font-size: 19px;
+    transition: color 0.3s;
+    -webkit-transition: color 0.3s;
+    -moz-transition: color 0.3s;
+    -ms-transition: color 0.3s;
+    -o-transition: color 0.3s;
+}
+
+#contact .icons .icon:hover {
+    background-color: var(--color);
+    border-color: var(--color);
+}
+
+#contact .icons .icon:hover i {
+    color: white;
+}
+
+#contact .form .btn {
+    background-color: var(--color);
+    color: white;
+    padding: 10px 20px;
+}
+
+#contact .form .btn:hover {
+    border: 1px solid var(--color);
+}
+
+#limit {
+    color: var(--color);
+}
+
+#duration {
+    background-image: url(../images/invitation-2508607__340.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+#duration .layer {
+    background-color: var(--main-color);
+}
+#duration .layer .item{
+    border: 2px solid white;
+}
+
